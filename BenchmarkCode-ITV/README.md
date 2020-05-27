@@ -1,4 +1,4 @@
-# Benchmarking optimum search schemes for approximate string matching found by mixed intgeer programming
+# Benchmarking optimum search schemes for approximate string matching found by mixed intger programming
 __________________________________________________________________________________________________
 
 This program/code benchmarks the optimum search schemes for approximate string matching using bidirectional FM-index. The results of specific benchmarking experiments are presebted in the paper *Kianfar, K., Pockrandt, C., Torkamandi, B., Luo, H., Reinert, K., Optimum Search Schemes for Approximate String Matching Using Bidirectional FM-Index, 2018*.\
@@ -28,7 +28,7 @@ How to run benchmarks
 
 To run the benchmarks from the paper, you can download the test data set. It includes the human genome hg38 without N bases, a prebuilt index of that genome and as well as the 100,000-read Illumina dataset used in the paper.
 
-You can find everything on http://ftp.mi.fu-berlin.de/pub/SeqAn/mappability/
+You can find everything on https://drive.google.com/drive/u/1/folders/1o5IBgEsLrUOeiclwesPfR2Sws9qnokL2
 
 
 ### Building an index ###
@@ -48,7 +48,7 @@ The index is built using secondary memory. If you're getting a runtime error, yo
 
 ### Running the benchmark ###
 
-After building the index, you can run the benchmark suite, which generates results of Table 2 in the paper (the run times are system dependent and may vary from system to system). The suite is based on Google Benchmark and will download and build Google Benchmark in your build directory:
+After building the index, you can run the benchmark suite, which generates results of Table 5 in the paper (the run times are system dependent and may vary from system to system). The suite is based on Google Benchmark and will download and build Google Benchmark in your build directory:
 
 ```sh
    $ ./benchmark -G /path/to/index/indexname -R /path/to/reads.fasta
