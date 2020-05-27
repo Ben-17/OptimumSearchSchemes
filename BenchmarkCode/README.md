@@ -28,7 +28,7 @@ How to run benchmarks
 
 To run the benchmarks from the paper, you can download the test data set. It includes the human genome hg38 without N bases, a prebuilt index of that genome and as well as the 100,000-read Illumina dataset used in the paper.
 
-You can find everything on http://ftp.mi.fu-berlin.de/pub/SeqAn/mappability/
+You can find everything on https://drive.google.com/drive/u/1/folders/19gg1YRrKLpJkIk1jt82Nhr6FRvKBeIDJ
 
 
 ### Building an index ###
@@ -48,7 +48,7 @@ The index is built using secondary memory. If you're getting a runtime error, yo
 
 ### Running the benchmark ###
 
-After building the index, you can run the benchmark suite, which generates results of Table 2 in the paper (the run times are system dependent and may vary from system to system). The suite is based on Google Benchmark and will download and build Google Benchmark in your build directory:
+After building the index, you can run the benchmark suite, which generates results of Tables 3, 4, 6, and 7 in the paper (the run times are system dependent and may vary from system to system). The suite is based on Google Benchmark and will download and build Google Benchmark in your build directory:
 
 ```sh
    $ ./benchmark -G /path/to/index/indexname -R /path/to/reads.fasta
