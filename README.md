@@ -1,2 +1,0 @@
-# OptimumSearchSchemes
-Optimum Search Schemes
