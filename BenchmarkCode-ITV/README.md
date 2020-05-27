@@ -1,4 +1,4 @@
-# Benchmarking optimum search schemes for approximate string matching found by mixed intger programming
+# Benchmarking optimum search schemes for approximate string matching found by mixed integer programming
 __________________________________________________________________________________________________
 
 This program/code benchmarks the optimum search schemes for approximate string matching using bidirectional FM-index. The results of specific benchmarking experiments are presebted in the paper *Kianfar, K., Pockrandt, C., Torkamandi, B., Luo, H., Reinert, K., Optimum Search Schemes for Approximate String Matching Using Bidirectional FM-Index, 2018*.\
