@@ -1,4 +1,4 @@
-# Benchmarking optimum search schemes for approximate string matching found by mixed intgeer programming
+# Benchmarking optimum search schemes for approximate string matching found by mixed integer programming
 __________________________________________________________________________________________________
 
 This program/code benchmarks the optimum search schemes for approximate string matching using bidirectional FM-index. The results of specific benchmarking experiments are presebted in the paper *Kianfar, K., Pockrandt, C., Torkamandi, B., Luo, H., Reinert, K., Optimum Search Schemes for Approximate String Matching Using Bidirectional FM-Index, 2018*.\
@@ -28,7 +28,7 @@ How to run benchmarks
 
 To run the benchmarks from the paper, you can download the test data set. It includes the human genome hg38 without N bases, a prebuilt index of that genome and as well as the 100,000-read Illumina dataset used in the paper.
 
-You can find everything on https://drive.google.com/drive/u/1/folders/19gg1YRrKLpJkIk1jt82Nhr6FRvKBeIDJ
+You can find everything on https://drive.google.com/drive/u/1/folders/1o5IBgEsLrUOeiclwesPfR2Sws9qnokL2
 
 
 ### Building an index ###
