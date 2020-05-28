@@ -26,7 +26,7 @@ How to run benchmarks
 
 ### Test data set
 
-To run the benchmarks from the paper, you can download the test data set. It includes the human genome hg38 without N bases, house mouse genome mm10 without N bases, prebuilt indexes of those genomes, and ERX1959065, SRR5365378, SRR1270201 read datasets used in the paper.
+To run the benchmarks from the paper, you can download the test data set. It includes the human genome hg38 without N bases, house mouse genome mm10 without N bases, prebuilt indexes of those genomes, as well as ERX1959065, SRR5365378, and SRR1270201 read datasets used in the paper.
 
 You can find everything on https://drive.google.com/drive/u/1/folders/1o5IBgEsLrUOeiclwesPfR2Sws9qnokL2
 
